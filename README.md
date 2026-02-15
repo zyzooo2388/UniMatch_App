@@ -52,7 +52,7 @@ The interface is designed to resemble a mobile app inside a browser.
 
 ## 🧱 Tech Stack
 
-- **JavaScript (ES Modules)**
+- **JavaScript**
 - **HTML5**
 - **CSS3**
 - **Vite** (development server & bundler)
@@ -100,13 +100,13 @@ npm run dev
 You should see something like:
 
 VITE vX.X.X ready in XXX ms
-Local: http://localhost:5173/
+Local: [`http://localhost:5173/`](http://localhost:5173/)
 
 ### 4️⃣ Open the App
 
 Open your browser and go to:
 
-http://localhost:5173
+[`http://localhost:5173/`](http://localhost:5173/)
 
 
 The UniMatch application will now run locally.
