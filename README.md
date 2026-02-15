@@ -70,21 +70,24 @@ Open Terminal and run:
 ```bash
 git clone https://github.com/zyzooo2388/UniMatch_App.git
 cd UniMatch_App
+```
 
 ### 2️⃣ Install Dependencies
 
 Make sure you have Node.js installed (version 18+ recommended).
 
-#### Check installation:
+Check installation:
 
 ```bash
 node -v
 npm -v
+```
 
-#### Install required packages:
+Install required packages:
 
 ```bash
 npm install
+```
 
 ### 3️⃣ Start Development Server
 
@@ -92,9 +95,9 @@ Run:
 
 ```bash
 npm run dev
+```
 
-
-#### You should see something like:
+You should see something like:
 
 VITE vX.X.X ready in XXX ms
 Local: http://localhost:5173/
