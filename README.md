@@ -4,7 +4,6 @@ UniMatch is a mobile-style roommate matching web application developed for COMS4
 
 This project focuses on modern frontend architecture, UI design, and client-side routing.
 
----
 
 ## 🚀 Live Concept
 
@@ -19,7 +18,6 @@ UniMatch simulates a real roommate matching platform where users can:
 
 The interface is designed to resemble a mobile app inside a browser.
 
----
 
 ## ✨ Features
 
@@ -51,7 +49,6 @@ The interface is designed to resemble a mobile app inside a browser.
 - Custom client-side router
 - Persistent bottom navigation bar
 
----
 
 ## 🧱 Tech Stack
 
@@ -61,7 +58,6 @@ The interface is designed to resemble a mobile app inside a browser.
 - **Vite** (development server & bundler)
 - Vanilla JS SPA architecture
 
----
 
 ## 🖥️ Run Locally
 
@@ -69,37 +65,41 @@ Follow these steps to run UniMatch on your own computer.
 
 ### 1️⃣ Clone the Repository
 
+Open Terminal and run: 
+
 ```bash
 git clone https://github.com/zyzooo2388/UniMatch_App.git
 cd UniMatch_App
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 
 Make sure you have Node.js installed (version 18+ recommended).
 
-Check installation:
+#### Check installation:
 
+```bash
 node -v
 npm -v
 
+#### Install required packages:
 
-Install required packages:
-
+```bash
 npm install
 
-3️⃣ Start Development Server
+### 3️⃣ Start Development Server
 
 Run:
 
+```bash
 npm run dev
 
 
-You should see something like:
+#### You should see something like:
 
 VITE vX.X.X ready in XXX ms
 Local: http://localhost:5173/
 
-4️⃣ Open the App
+### 4️⃣ Open the App
 
 Open your browser and go to:
 
