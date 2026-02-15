@@ -1,0 +1,5 @@
+.start { padding: 70px 22px 24px; text-align: center; }
+.start-logo { width: 70px; height: 70px; object-fit: contain; }
+.start-title { margin: 54px 0 12px; font-size: 34px; line-height: 1.2; }
+.start-sub { margin: 0; color: #333; line-height: 1.5; }
+.start-btn { margin: 60px auto 0; width: 160px; }

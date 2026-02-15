@@ -1,0 +1,14 @@
+.login { padding: 56px 22px 24px; text-align: center; }
+.login-logo-wrap { margin-top: 10px; }
+.login-logo { width: 70px; height: 70px; object-fit: contain; }
+
+.login-head h1 { margin: 48px 0 10px; font-size: 34px; line-height: 1.2; }
+.login-head p { margin: 0; font-size: 16px; color: #333; }
+
+.login-form { margin-top: 44px; display: grid; gap: 14px; }
+.login-input {
+  height: 44px; border-radius: 10px; border: 1px solid #e5e5e5;
+  padding: 0 14px; font-size: 16px;
+}
+
+.login-helper { margin-top: 18px; font-size: 14px; color: #333; line-height: 1.5; }

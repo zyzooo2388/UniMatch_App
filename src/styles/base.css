@@ -1,0 +1,124 @@
+/* src/styles/base.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap");
+
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+
+body{
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: #f5f5f5;
+  color: #111;
+}
+
+#app{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+/* Phone shell */
+.phone{
+  width: 375px;
+  height: 812px;
+  background: #fff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.15);
+  position: relative; /* <-- IMPORTANT: nav anchors to this */
+}
+
+/* Screen (page container) */
+.screen{
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  /* Default page padding */
+  padding: 18px 16px 84px; /* bottom space for nav */
+}
+
+/* Buttons */
+.btn-primary{
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: none;
+  background: #0b5cab;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+.btn-primary:active{ transform: translateY(1px); }
+
+/* Badge */
+.badge{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: #e11d48;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+/* Bottom nav (your “previous design” version) */
+.bottom-nav{
+  position: absolute; /* <-- pins to phone bottom */
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  height: 72px;
+  border-top: 1px solid #eee;
+  background: #fff;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  padding: 8px 6px;
+  z-index: 50;
+}
+
+.nav-item{
+  border: none;
+  background: transparent;
+  padding: 10px 0;
+  font-weight: 800;
+  color: #888;
+  cursor: pointer;
+}
+
+.nav-item.active{ color: #0b5cab; }
+
+/* If you use nav-btn style somewhere else */
+.nav-btn{
+  border: none;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #888;
+  font-weight: 900;
+  cursor: pointer;
+}
+.nav-btn.active{ color:#0b5cab; }
+.nav-ico{ font-size: 18px; line-height: 1; }
+.nav-txt{ font-size: 12px; line-height: 1; }
+
+/* Shared back arrow button */
+.back-btn{
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  font-weight: 800;
+  cursor: pointer;
+  padding: 0;
+}

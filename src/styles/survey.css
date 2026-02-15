@@ -1,0 +1,22 @@
+.survey { padding: 14px 16px 0; }
+.survey-top { display: grid; grid-template-columns: 44px 1fr; align-items: center; gap: 8px; }
+.survey-title { font-weight: 900; font-size: 16px; text-align: center; padding-right: 44px; }
+
+.survey-body { padding: 10px 6px 16px; overflow: auto; }
+.q { margin: 18px 0 20px; }
+.q-title { font-size: 14px; line-height: 1.4; margin-bottom: 10px; }
+
+.range-row { display: grid; grid-template-columns: 1fr 64px; align-items: center; gap: 10px; }
+.range { width: 100%; }
+.range-value { text-align: right; font-weight: 800; color: #111; }
+
+.range-labels { display: flex; justify-content: space-between; font-size: 12px; color: #333; margin-top: 6px; }
+
+.options { display: grid; gap: 10px; }
+.opt {
+  height: 44px; border-radius: 10px; border: 1px solid #e6e6e6;
+  background: #efefef; font-weight: 800; cursor: pointer;
+}
+.opt.active { background: #dfe9f7; border-color: #0b5cab; color: #0b5cab; }
+
+.survey-continue { width: 210px; margin: 20px auto 18px; display: block; }

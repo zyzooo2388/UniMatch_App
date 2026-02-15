@@ -1,0 +1,136 @@
+.profile { padding: 10px 14px 0; }
+
+.profile-top {
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  align-items: center;
+  padding: 6px 0 10px;
+}
+.profile-top-title{
+  display:flex; align-items:center; justify-content:center; gap:10px;
+  font-weight: 900;
+}
+.tiny-logo{ width:22px; height:22px; object-fit:contain; }
+
+/* HERO card */
+.profile-hero{
+  background:#ededed;
+  border-radius:18px;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  padding: 18px 18px;
+  margin: 10px 4px 18px;
+  gap: 14px;
+}
+
+/* left text column */
+.hero-left{
+  flex: 1;
+  min-width: 0;        /* important in flex */
+  margin-left: 0;      /* ✅ remove your old margin-left:22px */
+}
+
+/* name */
+.hero-name{
+  font-size: 32px;
+  font-weight: 800;
+  color:#111;
+  margin-bottom: 10px;
+}
+
+/* 98% Match — show FULL text, no "..." */
+.hero-match{
+  font-size: 27px;     /* big but fits */
+  font-weight: 900;
+  color:#1f5ea8;
+  line-height: 1;
+
+  white-space: nowrap; /* keep on one line */
+  overflow: visible;   /* ✅ do NOT hide */
+  text-overflow: clip; /* ✅ do NOT ellipsis */
+}
+
+/* avatar on right */
+.hero-avatar{
+  width: 92px;         /* ✅ smaller so text fits */
+  height: 92px;
+  border-radius: 999px;
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+
+
+.section-title{
+  margin: 18px 4px 10px;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.compat{
+  display:flex;
+  flex-direction:column;
+  gap: 12px;
+  padding: 0 4px;
+}
+.compat-card{
+  background:#fff;
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 10px 18px rgba(0,0,0,0.10);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 12px;
+}
+.compat-h{ font-weight: 900; font-size: 14px; }
+.compat-sub{ color:#666; margin-top: 4px; font-size: 13px; line-height:1.2; }
+
+.pill{
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-weight: 900;
+  color:#fff;
+  min-width: 110px;
+  text-align:center;
+}
+.pill-strong{ background:#0b5cab; }
+.pill-mid{ background:#1f73d3; }
+.pill-low{ background:#7aa6de; }
+
+.about-card{
+  background:#fff;
+  border-radius: 14px;
+  padding: 14px;
+  margin: 0 4px;
+  box-shadow: 0 10px 18px rgba(0,0,0,0.10);
+}
+.about-text{ margin:0; color:#666; font-size: 13px; line-height: 1.4; }
+
+.tags{ display:flex; flex-wrap:wrap; gap: 8px; margin-top: 12px; }
+.tag{
+  padding: 6px 10px;
+  border-radius: 999px;
+  background:#0b5cab;
+  color:#fff;
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.profile-bottom{
+  margin-top: 14px;
+  padding: 10px 4px 14px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.ghost{
+  border:none;
+  background:transparent;
+  font-weight: 900;
+  font-size: 16px;
+  color:#0b5cab;
+  cursor:pointer;
+}
